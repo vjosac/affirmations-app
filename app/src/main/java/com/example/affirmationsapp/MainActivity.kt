@@ -67,6 +67,7 @@ fun AffirmationsApp() {
                 end = WindowInsets.safeDrawing
                     .asPaddingValues()
                     .calculateEndPadding(layoutDirection),
+                bottom = 40.dp
             ),
     ) {
         AffirmationList(
